@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Livora — Rent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+
+    <!-- Mobile Hamburger (LEFT) -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="mobile-toggle">☰</label>
+
+    <!-- Logo -->
+    <a class="logo" href="index.html">Livora<span>🏠</span></a>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="buy.html">Buy</a>
+      <a href="rent.html">Rent</a>
+      <a href="sell.html">Sell</a>
+      <a href="agents.html">Agents</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Actions -->
+    <div class="actions">
+      <a href="login.html" class="btn outline small">Login</a>
+    </div>
+
+  </div>
+</header>
+
+
+<main class="wrap" style="padding-top:28px;">
+  <div class="breadcrumbs">Home › Rent</div>
+  <h1 class="page-title">Rent Properties</h1>
+
+  <!-- Filter bar -->
+  <div class="filter-bar">
+    <input placeholder="Search location or project">
+    <select>
+      <option>All types</option>
+      <option>Apartment</option>
+      <option>Studio</option>
+      <option>Commercial</option>
+    </select>
+    <input placeholder="Min price">
+    <input placeholder="Max price">
+    <select>
+      <option>Newest</option>
+      <option>Price - Low to High</option>
+      <option>Price - High to Low</option>
+    </select>
+    <button class="btn">Apply</button>
+  </div>
+
+  <!-- ✅ GRID WRAPPER -->
+  <div class="luxury-grid">
+
+    <!-- Card 1 -->
+    <div class="luxury-card">
+      <img src="images/house5.jpeg" alt="">
+      <div class="luxury-body">
+        <h3>Modern Studio Flat</h3>
+        <p class="location">Downtown, NY</p>
+        <p class="info">3 Beds • 3 Baths • 4043 sqft</p>
+        <div class="price-row">
+          <span class="price">$8600</span>
+          <a href="property.html" class="details-btn">Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="luxury-card">
+      <img src="images/house2.jpeg" alt="">
+      <div class="luxury-body">
+        <h3>Luxury Apartment</h3>
+        <p class="location">Brooklyn Heights, NY</p>
+        <p class="info">3 Beds • 3 Baths • 4043 sqft</p>
+        <div class="price-row">
+          <span class="price">$8600</span>
+          <a href="property.html" class="details-btn">Details</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+
+    <div class="footer-col">
+      <div class="footer-logo">
+        <span class="brand-icon">🏠</span>
+        <span class="brand-text">Livora</span>
+      </div>
+      <p class="footer-sub">Real Estate</p>
+      <div class="socials">
+        <a href="#">IG</a>
+        <a href="#">FB</a>
+        <a href="#">IN</a>
+        <a href="#">X</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>About us</h4>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Why choose us</a></li>
+        <li><a href="#">Customer reviews</a></li>
+        <li><a href="#">Our team</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Our services</a></li>
+        <li><a href="#">Contact support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Need Help?</h4>
+      <p class="footer-contact">📞 1234567891</p>
+      <p class="footer-contact">✉️ support@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Real estate. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>

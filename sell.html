@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Livora — Rent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+  <div class="wrap topbar-inner">
+
+    <!-- Mobile Hamburger (LEFT) -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="mobile-toggle">☰</label>
+
+    <!-- Logo -->
+    <a class="logo" href="index.html">Livora<span>🏠</span></a>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="buy.html">Buy</a>
+      <a href="rent.html">Rent</a>
+      <a href="sell.html">Sell</a>
+      <a href="agents.html">Agents</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Actions -->
+    <div class="actions">
+      <a href="login.html" class="btn outline small">Login</a>
+    </div>
+
+  </div>
+</header>
+
+<!-- PAGE HEADING -->
+<section class="sell-heading">
+  <h1>Sell Your Property</h1>
+</section>
+
+<!-- SELL FORM -->
+<section class="sell-section">
+  <div class="sell-wrapper">
+
+    <!-- LEFT BOX -->
+    <div class="sell-box sell-left">
+
+      <div class="sell-form">
+       <div class="field">
+  <label>Mark your location</label>
+  <input type="text" placeholder="Enter location (area / city)">
+</div>
+
+<!-- GOOGLE MAP -->
+<div class="sell-map">
+  <a 
+    href="https://www.google.com/maps"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="map-link"
+  >
+    <iframe
+      src="https://www.google.com/maps?q=India&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <span class="map-overlay">Click to open Google Maps</span>
+  </a>
+</div>
+
+
+        <div class="field">
+          <label>Phone</label>
+          <input type="text" placeholder="Enter your phone number">
+        </div>
+
+        <div class="field">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="field">
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter your email address">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT BOX -->
+    <div class="sell-box sell-right">
+
+      <div class="field">
+        <label>Main Title</label>
+        <input type="text" placeholder="Enter your property title">
+      </div>
+
+      <div class="field">
+        <label>Property Type</label>
+        <select>
+          <option>Residential</option>
+          <option>Commercial</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Property Details</label>
+        <textarea placeholder="Add your property details"></textarea>
+      </div>
+
+      <div class="field">
+        <label>Price</label>
+        <input type="text" placeholder="Enter price">
+      </div>
+
+      <div class="field">
+        <label>Property Media</label>
+        <div class="media-box">
+          Click here to drop files to upload
+        </div>
+      </div>
+
+      <!-- UPDATE BUTTON -->
+      <button class="sell-update-btn">Update</button>
+
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
+
+
+ <!-- footer -->
+  
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+
+    <!-- Brand -->
+    <div class="footer-col">
+      <div class="footer-logo">
+        <span class="brand-icon">🏠</span>
+        <span class="brand-text">Livora</span>
+      </div>
+      <p class="footer-sub">Real Estate</p>
+
+      <div class="socials">
+        <a href="#">IG</a>
+        <a href="#">FB</a>
+        <a href="#">IN</a>
+        <a href="#">X</a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="footer-col">
+      <h4>About us</h4>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Why choose us</a></li>
+        <li><a href="#">Customer reviews</a></li>
+        <li><a href="#">Our team</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick links -->
+    <div class="footer-col">
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Our services</a></li>
+        <li><a href="#">Contact support</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h4>Need Help?</h4>
+      <p class="footer-contact">📞 1234567891</p>
+      <p class="footer-contact">✉️ support@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Real estate. All rights reserved.
+  </div>
+</footer>

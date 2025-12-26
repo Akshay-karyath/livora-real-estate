@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — Livora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+
+    <!-- Mobile Hamburger (LEFT) -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="mobile-toggle">☰</label>
+
+    <!-- Logo -->
+    <a class="logo" href="index.html">Livora<span>🏠</span></a>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="buy.html">Buy</a>
+      <a href="rent.html">Rent</a>
+      <a href="sell.html">Sell</a>
+      <a href="agents.html">Agents</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Actions -->
+    <div class="actions">
+      <a href="login.html" class="btn outline small">Login</a>
+    </div>
+
+  </div>
+</header>
+
+
+  <section class="wrap" style="max-width:520px; padding-top:40px;">
+    <div class="login-card">
+      <h2 class="login-title">Welcome Back</h2>
+      <p class="muted" style="margin-top:-6px; margin-bottom:18px;">Login to access your dashboard</p>
+
+      <form id="loginForm" class="login-form" autocomplete="off">
+        <label for="loginEmail">Email Address</label>
+        <input id="loginEmail" type="email" placeholder="Enter your email" required>
+
+        <label for="loginPassword">Password</label>
+        <div style="position:relative;">
+          <input id="loginPassword" type="password" placeholder="Enter your password" required>
+          <button type="button" id="togglePwd" aria-label="Show password" class="pwd-toggle">Show</button>
+        </div>
+
+        <div class="form-row" style="margin-top:6px;">
+          <label><input id="rememberMe" type="checkbox"> Remember me</label>
+          <a href="#" class="link small">Forgot password?</a>
+        </div>
+
+        <div id="loginError" style="display:none;color:#b91c1c;font-weight:700;margin-top:6px;"></div>
+
+        <button class="btn primary large" id="loginBtn" style="width:100%; margin-top:6px;">Login</button>
+      </form>
+
+      <p class="muted" style="text-align:center; margin-top:18px;">
+        Don't have an account?
+        <a href="#" class="link">Register</a>
+      </p>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+ <!-- footer -->
+  
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+
+    <!-- Brand -->
+    <div class="footer-col">
+      <div class="footer-logo">
+        <span class="brand-icon">🏠</span>
+        <span class="brand-text">Livora</span>
+      </div>
+      <p class="footer-sub">Real Estate</p>
+
+      <div class="socials">
+        <a href="#">IG</a>
+        <a href="#">FB</a>
+        <a href="#">IN</a>
+        <a href="#">X</a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="footer-col">
+      <h4>About us</h4>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Why choose us</a></li>
+        <li><a href="#">Customer reviews</a></li>
+        <li><a href="#">Our team</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick links -->
+    <div class="footer-col">
+      <h4>Quick links</h4>
+      <ul>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Our services</a></li>
+        <li><a href="#">Contact support</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h4>Need Help?</h4>
+      <p class="footer-contact">📞 1234567891</p>
+      <p class="footer-contact">✉️ support@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Real estate. All rights reserved.
+  </div>
+</footer>
